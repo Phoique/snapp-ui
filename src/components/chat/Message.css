@@ -1,0 +1,10 @@
+.kullanici{
+  font-weight: bold;
+  color: purple;
+}
+.ileti{
+  padding:10px;
+  background: -webkit-linear-gradient(top, purple,rgb(78, 8, 78),rgb(78, 8, 78),purple);
+  color: white;
+  border-radius: 20px;
+}

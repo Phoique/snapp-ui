@@ -1,0 +1,13 @@
+.mesajlar{
+  background: #d3cccc;
+  text-align: left;
+  max-width: 600px;
+  width:100%;
+  border: 1px solid purple;
+  border-radius: 0px 0px 20px 20px;
+  overflow: auto;
+  height:400px;
+}
+.mesaj{
+  margin: 10px 0px 10px 10px;
+}
