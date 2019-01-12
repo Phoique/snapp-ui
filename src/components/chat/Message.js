@@ -5,20 +5,12 @@ class Message extends Component {
   render() {
     return(
       <div>
-
         <div className="kullanici">
-          kullanıcı1
+          {this.props.username}
         </div>
         <div className="ileti">
-          Selam
+          {this.props.message}
         </div>
-        <div className="kullanici">
-          kullanıcı1
-        </div>
-        <div className="ileti">
-          Selam
-        </div>
-        
       </div>
     );
   }
