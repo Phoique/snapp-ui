@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MessageList from './chat/MessageList';
-import Submit from './Submit';
+import Submit from './submit/Submit';
 import './App.css';
 
 
