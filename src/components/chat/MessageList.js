@@ -33,7 +33,7 @@ class MessageList extends Component {
             <div className="mesaj">
               {
                 this.state.data.map(chat => 
-                  <Message username={chat.username} message={chat.message} />
+                  <Message key={chat.username} username={chat.username} message={chat.message} />
                 )
               }
             </div>
